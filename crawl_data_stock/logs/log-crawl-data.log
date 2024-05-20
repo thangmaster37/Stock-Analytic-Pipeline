@@ -1,0 +1,308 @@
+2022-01-21 22:02:21,589 ERROR:Failed to access the url https://banggia.hnx. 
+Error: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//banggia.hnx/&c=UTF-8&d=Ch%C3%BAng%20t%C3%B4i%20kh%C3%B4ng%20th%E1%BB%83%20k%E1%BA%BFt%20n%E1%BB%91i%20%C4%91%E1%BA%BFn%20m%C3%A1y%20ch%E1%BB%A7%20t%E1%BA%A1i%20banggia.hnx.
+Stacktrace:
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.jsm:510:5
+checkReadyState@chrome://remote/content/marionette/navigate.js:64:24
+onNavigation@chrome://remote/content/marionette/navigate.js:312:39
+emit@resource://gre/modules/EventEmitter.jsm:160:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.jsm:44:25
+
+2022-01-21 23:49:17,896 ERROR:Error querying to MySQL server. string indices must be integers
+2022-01-22 09:36:12,021 ERROR:Failed when crawling crawl a stock in ABC section
+2022-01-22 10:01:12,116 ERROR:Failed to access the url https://banggia.hnx.vn. 
+Error: [WinError 267] The directory name is invalid: '.\\driver\\geckodriver.exe'
+2022-01-22 10:01:34,971 ERROR:Failed to access the url https://banggia.hnx.vn. 
+Error: [WinError 267] The directory name is invalid: '.\\driver\\geckodriver.exe'
+2022-01-22 10:02:11,218 ERROR:Failed to access the url https://banggia.hnx.vn. 
+Error: [WinError 267] The directory name is invalid: 'driver\\geckodriver.exe'
+2022-01-22 10:06:34,067 ERROR:Failed to access the url https://banggia.hnx.vn. 
+Error: Message: session not created: This version of ChromeDriver only supports Chrome version 95
+Current browser version is 97.0.4692.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00E106F3+2492147]
+	Ordinal0 [0x00DA9BD1+2071505]
+	Ordinal0 [0x00CB2478+1057912]
+	Ordinal0 [0x00CD0631+1181233]
+	Ordinal0 [0x00CCC43B+1164347]
+	Ordinal0 [0x00CC9C9F+1154207]
+	Ordinal0 [0x00CF9DFF+1351167]
+	Ordinal0 [0x00CF9A6A+1350250]
+	Ordinal0 [0x00CF568B+1332875]
+	Ordinal0 [0x00CD21D4+1188308]
+	Ordinal0 [0x00CD302F+1191983]
+	GetHandleVerifier [0x00F967A6+1545030]
+	GetHandleVerifier [0x0104105C+2243580]
+	GetHandleVerifier [0x00E9BC97+518199]
+	GetHandleVerifier [0x00E9AD80+514336]
+	Ordinal0 [0x00DAED2D+2092333]
+	Ordinal0 [0x00DB2EE8+2109160]
+	Ordinal0 [0x00DB3022+2109474]
+	Ordinal0 [0x00DBCB71+2149233]
+	BaseThreadInitThunk [0x75A70419+25]
+	RtlGetAppContainerNamedObjectPath [0x76F272FD+237]
+	RtlGetAppContainerNamedObjectPath [0x76F272CD+189]
+
+2022-01-22 10:06:41,227 ERROR:Failed to access the url https://banggia.hnx.vn. 
+Error: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://chromedriver.chromium.org/home
+
+2022-01-22 10:07:11,386 ERROR:Failed to access the url https://banggia.hnx.vn. 
+Error: Message: session not created: This version of ChromeDriver only supports Chrome version 95
+Current browser version is 97.0.4692.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00E106F3+2492147]
+	Ordinal0 [0x00DA9BD1+2071505]
+	Ordinal0 [0x00CB2478+1057912]
+	Ordinal0 [0x00CD0631+1181233]
+	Ordinal0 [0x00CCC43B+1164347]
+	Ordinal0 [0x00CC9C9F+1154207]
+	Ordinal0 [0x00CF9DFF+1351167]
+	Ordinal0 [0x00CF9A6A+1350250]
+	Ordinal0 [0x00CF568B+1332875]
+	Ordinal0 [0x00CD21D4+1188308]
+	Ordinal0 [0x00CD302F+1191983]
+	GetHandleVerifier [0x00F967A6+1545030]
+	GetHandleVerifier [0x0104105C+2243580]
+	GetHandleVerifier [0x00E9BC97+518199]
+	GetHandleVerifier [0x00E9AD80+514336]
+	Ordinal0 [0x00DAED2D+2092333]
+	Ordinal0 [0x00DB2EE8+2109160]
+	Ordinal0 [0x00DB3022+2109474]
+	Ordinal0 [0x00DBCB71+2149233]
+	BaseThreadInitThunk [0x75A70419+25]
+	RtlGetAppContainerNamedObjectPath [0x76F272FD+237]
+	RtlGetAppContainerNamedObjectPath [0x76F272CD+189]
+
+2022-01-22 10:07:33,789 ERROR:Failed to access the url https://banggia.hnx.vn. 
+Error: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://chromedriver.chromium.org/home
+
+2022-01-22 10:08:43,633 ERROR:Failed to access the url https://banggia.hnx.vn. 
+Error: Message: session not created: This version of ChromeDriver only supports Chrome version 95
+Current browser version is 97.0.4692.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x012506F3+2492147]
+	Ordinal0 [0x011E9BD1+2071505]
+	Ordinal0 [0x010F2478+1057912]
+	Ordinal0 [0x01110631+1181233]
+	Ordinal0 [0x0110C43B+1164347]
+	Ordinal0 [0x01109C9F+1154207]
+	Ordinal0 [0x01139DFF+1351167]
+	Ordinal0 [0x01139A6A+1350250]
+	Ordinal0 [0x0113568B+1332875]
+	Ordinal0 [0x011121D4+1188308]
+	Ordinal0 [0x0111302F+1191983]
+	GetHandleVerifier [0x013D67A6+1545030]
+	GetHandleVerifier [0x0148105C+2243580]
+	GetHandleVerifier [0x012DBC97+518199]
+	GetHandleVerifier [0x012DAD80+514336]
+	Ordinal0 [0x011EED2D+2092333]
+	Ordinal0 [0x011F2EE8+2109160]
+	Ordinal0 [0x011F3022+2109474]
+	Ordinal0 [0x011FCB71+2149233]
+	BaseThreadInitThunk [0x75A70419+25]
+	RtlGetAppContainerNamedObjectPath [0x76F272FD+237]
+	RtlGetAppContainerNamedObjectPath [0x76F272CD+189]
+
+2022-01-22 10:23:51,705 ERROR:Failed when crawling crawl a stock in ABC section. Error: Message: The element reference of <div id="A32_ref_price" class="color5"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+Stacktrace:
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5
+StaleElementReferenceError@chrome://remote/content/shared/webdriver/Errors.jsm:464:5
+element.resolveElement@chrome://remote/content/marionette/element.js:681:11
+evaluate.fromJSON@chrome://remote/content/marionette/evaluate.js:254:26
+evaluate.fromJSON@chrome://remote/content/marionette/evaluate.js:262:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:79:29
+
+2022-01-22 10:47:02,708 ERROR:Failed to access the url https://banggia.hnx. 
+Error: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//banggia.hnx/&c=UTF-8&d=Ch%C3%BAng%20t%C3%B4i%20kh%C3%B4ng%20th%E1%BB%83%20k%E1%BA%BFt%20n%E1%BB%91i%20%C4%91%E1%BA%BFn%20m%C3%A1y%20ch%E1%BB%A7%20t%E1%BA%A1i%20banggia.hnx.
+Stacktrace:
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.jsm:510:5
+checkReadyState@chrome://remote/content/marionette/navigate.js:64:24
+onNavigation@chrome://remote/content/marionette/navigate.js:312:39
+emit@resource://gre/modules/EventEmitter.jsm:160:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.jsm:44:25
+
+2022-01-23 14:04:36,172 ERROR:Failed to access the url https://banggia.hnx.vn. 
+Error: Message: Process unexpectedly closed with status 0
+
+2024-05-16 20:00:22,541 ERROR:Failed to access the url https://banggia.hnx.vn. 
+Error: Message: 'geckodriver' executable needs to be in PATH. 
+
+2024-05-16 20:01:40,719 ERROR:Failed to access the url https://banggia.hnx.vn. 
+Error: Message: 'geckodriver' executable needs to be in PATH. 
+
+2024-05-16 21:05:22,248 ERROR:Failed to access the url https://banggia.hnx.vn. 
+Error: Message: 'geckodriver.exe' executable needs to be in PATH. 
+
+2024-05-16 21:25:30,037 ERROR:Failed to access the url https://banggia.hnx.vn. 
+Error: Message: 'geckodriver' executable needs to be in PATH. 
+
+2024-05-16 21:26:55,152 ERROR:Failed to access the url https://banggia.hnx.vn. 
+Error: Message: 'geckodriver' executable needs to be in PATH. 
+
+2024-05-16 21:28:20,042 ERROR:Failed to access the url https://banggia.hnx.vn. 
+Error: Message: 'geckodriver' executable needs to be in PATH. 
+
+2024-05-16 21:31:06,758 INFO:====== WebDriver manager ======
+2024-05-16 21:31:12,084 INFO:Get LATEST geckodriver version for None firefox
+2024-05-16 21:31:12,862 INFO:Getting latest mozilla release info for v0.34.0
+2024-05-16 21:31:13,581 INFO:About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.34.0/geckodriver-v0.34.0-win64.zip
+2024-05-16 21:31:16,031 INFO:Driver downloading response is 200
+2024-05-16 21:31:24,257 INFO:Get LATEST geckodriver version for None firefox
+2024-05-16 21:31:26,088 INFO:Get LATEST geckodriver version for None firefox
+2024-05-16 21:31:27,627 INFO:Driver has been saved in cache [C:\Users\thang\.wdm\drivers\geckodriver\win64\v0.34.0]
+2024-05-16 21:31:31,602 ERROR:Failed to access the url https://banggia.hnx.vn. 
+Error: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line
+
+2024-05-16 21:33:01,038 INFO:====== WebDriver manager ======
+2024-05-16 21:33:02,988 INFO:Get LATEST geckodriver version for None firefox
+2024-05-16 21:33:03,312 INFO:Getting latest mozilla release info for v0.34.0
+2024-05-16 21:33:03,817 INFO:About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.34.0/geckodriver-v0.34.0-win64.zip
+2024-05-16 21:33:06,105 INFO:Driver downloading response is 200
+2024-05-16 21:33:07,365 INFO:Get LATEST geckodriver version for None firefox
+2024-05-16 21:33:08,332 INFO:Get LATEST geckodriver version for None firefox
+2024-05-16 21:33:09,130 INFO:Driver has been saved in cache [C:\Users\thang\.wdm\drivers\geckodriver\win64\v0.34.0]
+2024-05-16 21:33:13,016 ERROR:Failed to access the url https://banggia.hnx.vn. 
+Error: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line
+
+2024-05-16 21:33:32,669 ERROR:Failed to access the url https://banggia.hnx.vn. 
+Error: Message: 'geckodriver' executable needs to be in PATH. 
+
+2024-05-16 21:35:27,586 ERROR:Failed to access the url https://banggia.hnx.vn. 
+Error: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line
+
+2024-05-16 21:38:18,109 INFO:====== WebDriver manager ======
+2024-05-16 21:38:19,701 INFO:Get LATEST geckodriver version for None firefox
+2024-05-16 21:38:20,360 INFO:Getting latest mozilla release info for v0.34.0
+2024-05-16 21:38:20,885 INFO:About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.34.0/geckodriver-v0.34.0-win64.zip
+2024-05-16 21:38:23,874 INFO:Driver downloading response is 200
+2024-05-16 21:38:24,908 INFO:Get LATEST geckodriver version for None firefox
+2024-05-16 21:38:25,778 INFO:Get LATEST geckodriver version for None firefox
+2024-05-16 21:38:26,552 INFO:Driver has been saved in cache [C:\Users\thang\.wdm\drivers\geckodriver\win64\v0.34.0]
+2024-05-16 21:38:30,652 ERROR:Failed to access the url https://banggia.hnx.vn. 
+Error: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line
+
+2024-05-16 21:39:40,108 INFO:====== WebDriver manager ======
+2024-05-16 21:39:41,607 INFO:Get LATEST chromedriver version for google-chrome
+2024-05-16 21:39:41,887 INFO:Get LATEST chromedriver version for google-chrome
+2024-05-16 21:39:42,085 INFO:There is no [win64] chromedriver "124.0.6367.207" for browser google-chrome "124.0.6367" in cache
+2024-05-16 21:39:42,085 INFO:Get LATEST chromedriver version for google-chrome
+2024-05-16 21:39:42,519 INFO:WebDriver version 124.0.6367.207 selected
+2024-05-16 21:39:42,522 INFO:Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/124.0.6367.207/win32/chromedriver-win32.zip
+2024-05-16 21:39:42,522 INFO:About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/124.0.6367.207/win32/chromedriver-win32.zip
+2024-05-16 21:39:42,698 INFO:Driver downloading response is 200
+2024-05-16 21:39:45,532 INFO:Get LATEST chromedriver version for google-chrome
+2024-05-16 21:39:45,957 INFO:Driver has been saved in cache [C:\Users\thang\.wdm\drivers\chromedriver\win64\124.0.6367.207]
+2024-05-16 21:39:46,991 ERROR:Failed to access the url https://banggia.hnx.vn. 
+Error: Message: session not created: No matching capabilities found
+Stacktrace:
+	GetHandleVerifier [0x0065C113+48259]
+	(No symbol) [0x005ECA41]
+	(No symbol) [0x004E0A17]
+	(No symbol) [0x00549790]
+	(No symbol) [0x00548CE8]
+	(No symbol) [0x0054A1CC]
+	(No symbol) [0x0054A0EA]
+	(No symbol) [0x00540B36]
+	(No symbol) [0x0051570D]
+	(No symbol) [0x005162CD]
+	GetHandleVerifier [0x009165A3+2908435]
+	GetHandleVerifier [0x00953BBB+3159851]
+	GetHandleVerifier [0x006F50CB+674875]
+	GetHandleVerifier [0x006FB28C+699900]
+	(No symbol) [0x005F6244]
+	(No symbol) [0x005F2298]
+	(No symbol) [0x005F242C]
+	(No symbol) [0x005E4BB0]
+	BaseThreadInitThunk [0x75EE00C9+25]
+	RtlGetAppContainerNamedObjectPath [0x775F7B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x775F7AEE+238]
+
+2024-05-16 21:42:09,724 INFO:====== WebDriver manager ======
+2024-05-16 21:42:12,892 INFO:Get LATEST chromedriver version for google-chrome
+2024-05-16 21:42:13,187 INFO:Get LATEST chromedriver version for google-chrome
+2024-05-16 21:42:13,406 INFO:Driver [C:\Users\thang\.wdm\drivers\chromedriver\win64\124.0.6367.207\chromedriver-win32/chromedriver.exe] found in cache
+2024-05-16 21:42:17,448 ERROR:Failed to access the url https://banggia.hnx.vn. 
+Error: Message: session not created: No matching capabilities found
+Stacktrace:
+	GetHandleVerifier [0x0086C113+48259]
+	(No symbol) [0x007FCA41]
+	(No symbol) [0x006F0A17]
+	(No symbol) [0x00759790]
+	(No symbol) [0x00758CE8]
+	(No symbol) [0x0075A1CC]
+	(No symbol) [0x0075A0EA]
+	(No symbol) [0x00750B36]
+	(No symbol) [0x0072570D]
+	(No symbol) [0x007262CD]
+	GetHandleVerifier [0x00B265A3+2908435]
+	GetHandleVerifier [0x00B63BBB+3159851]
+	GetHandleVerifier [0x009050CB+674875]
+	GetHandleVerifier [0x0090B28C+699900]
+	(No symbol) [0x00806244]
+	(No symbol) [0x00802298]
+	(No symbol) [0x0080242C]
+	(No symbol) [0x007F4BB0]
+	BaseThreadInitThunk [0x75EE00C9+25]
+	RtlGetAppContainerNamedObjectPath [0x775F7B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x775F7AEE+238]
+
+2024-05-16 21:44:54,225 INFO:====== WebDriver manager ======
+2024-05-16 21:44:56,218 INFO:Get LATEST geckodriver version for None firefox
+2024-05-16 21:44:56,927 INFO:Getting latest mozilla release info for v0.34.0
+2024-05-16 21:44:57,463 INFO:About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.34.0/geckodriver-v0.34.0-win64.zip
+2024-05-16 21:45:00,112 INFO:Driver downloading response is 200
+2024-05-16 21:45:01,210 INFO:Get LATEST geckodriver version for None firefox
+2024-05-16 21:45:02,167 INFO:Get LATEST geckodriver version for None firefox
+2024-05-16 21:45:02,998 INFO:Driver has been saved in cache [C:\Users\thang\.wdm\drivers\geckodriver\win64\v0.34.0]
+2024-05-16 21:45:08,654 ERROR:Failed to access the url https://banggia.hnx.vn. 
+Error: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line
+
+2024-05-16 21:51:38,783 ERROR:Failed to access the url https://banggia.hnx.vn. 
+Error: Message: 'MicrosoftWebDriver.exe' executable needs to be in PATH. Please download from http://go.microsoft.com/fwlink/?LinkId=619687
+
+2024-05-16 21:57:18,598 ERROR:Failed to access the url https://banggia.hnx.vn. 
+Error: Message: 'MicrosoftWebDriver.exe' executable needs to be in PATH. Please download from http://go.microsoft.com/fwlink/?LinkId=619687
+
+2024-05-16 21:57:25,386 ERROR:Failed to access the url https://banggia.hnx.vn. 
+Error: Message: 'MicrosoftWebDriver.exe' executable needs to be in PATH. Please download from http://go.microsoft.com/fwlink/?LinkId=619687
+
+2024-05-16 23:45:47,001 INFO:====== WebDriver manager ======
+2024-05-16 23:45:48,957 INFO:Get LATEST chromedriver version for google-chrome
+2024-05-16 23:45:49,231 INFO:Get LATEST chromedriver version for google-chrome
+2024-05-16 23:45:49,430 INFO:Driver [C:\Users\thang\.wdm\drivers\chromedriver\win64\124.0.6367.207\chromedriver-win32/chromedriver.exe] found in cache
+2024-05-16 23:45:59,016 ERROR:Failed when crawling crawl a stock in ABC section. Error: invalid literal for int() with base 10: '2117.6'
+2024-05-16 23:47:20,984 INFO:====== WebDriver manager ======
+2024-05-16 23:47:22,793 INFO:Get LATEST chromedriver version for google-chrome
+2024-05-16 23:47:23,052 INFO:Get LATEST chromedriver version for google-chrome
+2024-05-16 23:47:23,261 INFO:Driver [C:\Users\thang\.wdm\drivers\chromedriver\win64\124.0.6367.207\chromedriver-win32/chromedriver.exe] found in cache
+2024-05-16 23:57:15,096 ERROR:Failed to export data to csv file. Error: Cannot save file into a non-existent directory: 'data'
+2024-05-16 23:58:40,836 INFO:====== WebDriver manager ======
+2024-05-16 23:58:43,230 INFO:Get LATEST chromedriver version for google-chrome
+2024-05-16 23:58:43,493 INFO:Get LATEST chromedriver version for google-chrome
+2024-05-16 23:58:43,700 INFO:Driver [C:\Users\thang\.wdm\drivers\chromedriver\win64\124.0.6367.207\chromedriver-win32/chromedriver.exe] found in cache
+2024-05-17 00:10:02,979 ERROR:Failed to export data to csv file. Error: Cannot save file into a non-existent directory: 'data'
+2024-05-17 00:12:40,010 INFO:====== WebDriver manager ======
+2024-05-17 00:12:43,321 INFO:Get LATEST chromedriver version for google-chrome
+2024-05-17 00:12:43,687 INFO:Get LATEST chromedriver version for google-chrome
+2024-05-17 00:12:44,037 INFO:Get LATEST chromedriver version for google-chrome
+2024-05-17 00:12:45,449 INFO:WebDriver version 124.0.6367.207 selected
+2024-05-17 00:12:45,458 INFO:Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/124.0.6367.207/win32/chromedriver-win32.zip
+2024-05-17 00:12:45,459 INFO:About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/124.0.6367.207/win32/chromedriver-win32.zip
+2024-05-17 00:12:45,779 INFO:Driver downloading response is 200
+2024-05-17 00:12:50,454 INFO:Get LATEST chromedriver version for google-chrome
+2024-05-17 00:12:50,956 INFO:Driver has been saved in cache [C:\Users\thang\.wdm\drivers\chromedriver\win64\124.0.6367.207]
+2024-05-20 00:47:07,024 INFO:====== WebDriver manager ======
+2024-05-20 00:47:08,219 INFO:Get LATEST chromedriver version for google-chrome
+2024-05-20 00:47:08,557 INFO:Get LATEST chromedriver version for google-chrome
+2024-05-20 00:47:09,771 INFO:There is no [win64] chromedriver "125.0.6422.60" for browser google-chrome "125.0.6422" in cache
+2024-05-20 00:47:09,771 INFO:Get LATEST chromedriver version for google-chrome
+2024-05-20 00:47:10,213 INFO:WebDriver version 125.0.6422.60 selected
+2024-05-20 00:47:10,215 INFO:Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/125.0.6422.60/win32/chromedriver-win32.zip
+2024-05-20 00:47:10,215 INFO:About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/125.0.6422.60/win32/chromedriver-win32.zip
+2024-05-20 00:47:10,340 INFO:Driver downloading response is 200
+2024-05-20 00:47:12,815 INFO:Get LATEST chromedriver version for google-chrome
+2024-05-20 00:47:13,140 INFO:Driver has been saved in cache [C:\Users\thang\.wdm\drivers\chromedriver\win64\125.0.6422.60]

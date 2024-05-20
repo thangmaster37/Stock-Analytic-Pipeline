@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module selenium-crawl-hnx</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>selenium-crawl-hnx</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:d%3A%5Cmaterial%5C20211%5Cproject%203%5Cpython-crawl-data-tool%5Cselenium-crawl-hnx.py">d:\material\20211\project 3\python-crawl-data-tool\selenium-crawl-hnx.py</a></font></td></tr></table>
+    <p><tt>Created&nbsp;on&nbsp;Oct&nbsp;23,&nbsp;2021<br>
+&nbsp;<br>
+@author:&nbsp;Nguyen&nbsp;Quang&nbsp;Hung</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="selenium.webdriver.support.expected_conditions.html">selenium.webdriver.support.expected_conditions</a><br>
+<a href="connection_utils.html">connection_utils</a><br>
+</td><td width="25%" valign=top><a href="datetime.html">datetime</a><br>
+<a href="logging.html">logging</a><br>
+</td><td width="25%" valign=top><a href="pandas.html">pandas</a><br>
+<a href="selenium.webdriver.html">selenium.webdriver</a><br>
+</td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-crawl"><strong>crawl</strong></a>(url)</dt><dd><tt>This&nbsp;function&nbsp;crawls&nbsp;stock&nbsp;data&nbsp;from&nbsp;the&nbsp;`url`&nbsp;link<br>
+&nbsp;<br>
+Parameters:<br>
+url&nbsp;:&nbsp;the&nbsp;website&nbsp;link&nbsp;that&nbsp;needs&nbsp;to&nbsp;crawl<br>
+&nbsp;<br>
+Returns:<br>
+this&nbsp;function&nbsp;doesn't&nbsp;return&nbsp;anything</tt></dd></dl>
+ <dl><dt><a name="-crawl_stock_data"><strong>crawl_stock_data</strong></a>(driver, section)</dt><dd><tt>This&nbsp;function&nbsp;takes&nbsp;as&nbsp;2&nbsp;input&nbsp;parameters&nbsp;the&nbsp;Web&nbsp;Driver&nbsp;and&nbsp;the&nbsp;name&nbsp;of&nbsp;the&nbsp;stock&nbsp;item&nbsp;section,&nbsp;and&nbsp;crawls&nbsp;the&nbsp;data&nbsp;of&nbsp;stock&nbsp;codes&nbsp;and&nbsp;prices.&nbsp;<br>
+Then&nbsp;put&nbsp;the&nbsp;data&nbsp;into&nbsp;the&nbsp;stock_list&nbsp;array<br>
+&nbsp;<br>
+Parameters:<br>
+driver&nbsp;:&nbsp;the&nbsp;instance&nbsp;of&nbsp;WebDriver&nbsp;<br>
+section&nbsp;(String):&nbsp;A&nbsp;input&nbsp;string&nbsp;describes&nbsp;the&nbsp;name&nbsp;of&nbsp;the&nbsp;stock&nbsp;section&nbsp;like&nbsp;ABC,&nbsp;DEF,&nbsp;GHI,&nbsp;...<br>
+&nbsp;<br>
+Returns:<br>
+this&nbsp;function&nbsp;doesn't&nbsp;return&nbsp;anything</tt></dd></dl>
+ <dl><dt><a name="-export_file"><strong>export_file</strong></a>(data)</dt><dd><tt>The&nbsp;function&nbsp;takes&nbsp;1&nbsp;input&nbsp;parameter&nbsp;of&nbsp;stock&nbsp;data&nbsp;in&nbsp;an&nbsp;array,&nbsp;from&nbsp;which&nbsp;to&nbsp;export&nbsp;the&nbsp;data&nbsp;to&nbsp;csv&nbsp;format.<br>
+&nbsp;<br>
+Parameters:<br>
+data&nbsp;(list):&nbsp;A&nbsp;list&nbsp;data&nbsp;of&nbsp;stock&nbsp;codes&nbsp;and&nbsp;prices.<br>
+&nbsp;<br>
+Returns:<br>
+this&nbsp;function&nbsp;doesn't&nbsp;return&nbsp;anything</tt></dd></dl>
+ <dl><dt><a name="-save_database"><strong>save_database</strong></a>(stock_list)</dt><dd><tt>The&nbsp;function&nbsp;save&nbsp;all&nbsp;stock&nbsp;data&nbsp;that&nbsp;just&nbsp;been&nbsp;crawled&nbsp;to&nbsp;mysql&nbsp;database.<br>
+&nbsp;<br>
+Parameters:<br>
+stock_data&nbsp;(list):&nbsp;A&nbsp;list&nbsp;data&nbsp;of&nbsp;stock&nbsp;codes&nbsp;and&nbsp;prices.<br>
+&nbsp;<br>
+Returns:<br>
+this&nbsp;function&nbsp;doesn't&nbsp;return&nbsp;anything</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>logger</strong> = &lt;Logger selenium-crawl-hnx (DEBUG)&gt;<br>
+<strong>smtp_handler</strong> = &lt;SMTPHandler (NOTSET)&gt;</td></tr></table>
+</body></html>

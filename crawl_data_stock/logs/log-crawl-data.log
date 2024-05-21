@@ -306,3 +306,11 @@ Error: Message: 'MicrosoftWebDriver.exe' executable needs to be in PATH. Please 
 2024-05-20 00:47:10,340 INFO:Driver downloading response is 200
 2024-05-20 00:47:12,815 INFO:Get LATEST chromedriver version for google-chrome
 2024-05-20 00:47:13,140 INFO:Driver has been saved in cache [C:\Users\thang\.wdm\drivers\chromedriver\win64\125.0.6422.60]
+2024-05-21 10:32:14,873 INFO:====== WebDriver manager ======
+2024-05-21 10:32:16,500 INFO:Get LATEST chromedriver version for google-chrome
+2024-05-21 10:32:16,784 INFO:Get LATEST chromedriver version for google-chrome
+2024-05-21 10:32:17,010 INFO:Driver [C:\Users\thang\.wdm\drivers\chromedriver\win64\125.0.6422.60\chromedriver-win32/chromedriver.exe] found in cache
+2024-05-21 10:34:43,234 INFO:====== WebDriver manager ======
+2024-05-21 10:34:44,631 INFO:Get LATEST chromedriver version for google-chrome
+2024-05-21 10:34:44,874 INFO:Get LATEST chromedriver version for google-chrome
+2024-05-21 10:34:45,086 INFO:Driver [C:\Users\thang\.wdm\drivers\chromedriver\win64\125.0.6422.60\chromedriver-win32/chromedriver.exe] found in cache

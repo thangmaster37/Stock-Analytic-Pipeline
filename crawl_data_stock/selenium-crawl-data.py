@@ -10,7 +10,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from tqdm import tqdm
 import pandas as pd
 import logging, logging.handlers
-import datetime
+from datetime import datetime
 import connection_utils
     
 
@@ -22,12 +22,12 @@ logger = logging.getLogger(__name__)
 
 # declare variable STMP Handler, initialized with the from and to addresses and subject line of the email.
 smtp_handler = logging.handlers.SMTPHandler(mailhost=('smtp.gmail.com', 587),
-                                            fromaddr='hungnguyenjr9@gmail.com',
-                                            toaddrs=['hungnq.cdc@gmail.com',
-                                                     'hung.nq183760@sis.hust.edu.vn'],
+                                            fromaddr='nguyenvanthangk66@gmail.com',
+                                            toaddrs=['nguyenvanthang.dataengineer@gmail.com',
+                                                     'nguyenvanthang_t66@hus.edu.vn'],
                                             subject='Error in Crawl-Data-Tool',
                                             credentials=(
-                                                'hungnguyenjr9@gmail.com',
+                                                'nguyenvanthangk66@gmail.com',
                                                 'wlpgtalknxstpftp'),
                                             secure=())
 logger.addHandler(smtp_handler)
@@ -145,6 +145,7 @@ def crawl_sections_data(driver, section):
                 'highest-price': highestPrice,
                 'lowest-price': lowerPrice,
                 'average-price': averagePrice,
+                'create-at': datetime.now()
             }
 
             # push that element to the last of the stock item list
@@ -256,7 +257,7 @@ def export_file(data):
     # export data to file as csv format
     try:
         df = pd.DataFrame(data)
-        df.to_csv('data/stock.csv', index = None, header=True)
+        df.to_csv('airflow_stock/dags/stock.csv', index = None, header=True)
 
         print("Exported data to file csv")
 
@@ -267,7 +268,8 @@ def export_file(data):
     # End function
     return
 
-if __name__ == '__main__':
+def main():
+
     # website link needs to crawl
     url = "https://banggia.hnx.vn"  
 
@@ -280,3 +282,5 @@ if __name__ == '__main__':
     stock_list = crawl(url)
     export_file(stock_list)
     # save_database(stock_list)
+
+main()

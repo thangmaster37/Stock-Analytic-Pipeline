@@ -34,6 +34,4 @@ Lowest Price: This is the lowest price the stock has reached in the current trad
 
 ## Result
 
-<p>
-    <img src="F:\image.png" width="570" height="470">
-</p>
+![UI](image.png)

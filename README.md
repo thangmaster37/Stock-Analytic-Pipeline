@@ -33,5 +33,5 @@ Lowest Price: This is the lowest price the stock has reached in the current trad
 - Average Price: This is the average price of the stock calculated by dividing the total value of all transactions by the total volume. It provides an overview of the average value of the stock during the trading session.
 
 ## Result
-Top 10 stocks with the highest value
+<p>Top 10 stocks with the highest value</p>
 ![UI](image.png)
